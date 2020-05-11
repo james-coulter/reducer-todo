@@ -5,15 +5,16 @@
   text-align: center;
   margin-top: 2%;
   box-shadow: 0 10px 6px -6px #777;
-  background: #fcfafa;
-  color: #191414;
+  background: #FE53BB;
+  color: #ffffff;
   font-family: sans-serif;
   width: 70%;
+  border-radius: 10px;
 }
 
 .item {
     font-size: 2.5rem;
-    color: #352d2d;
+    color: #09FBD3;
     font-weight: 900;
 }
 
@@ -24,7 +25,24 @@
 
   h1 {
       font-size: 4rem;
-      color: #FF00FF;
+      color: #F5D300;
+      margin: 0;
+      text-align: left;
+  }
+
+  h2 {
+    margin: 0;
+    color: #08f7fe;
+    text-align: left;
+    border-bottom: 2px solid #08f7fe;
+    padding-bottom: 1%;
+  }
+
+  .timeHead {
+    color: #F5D300;
+    font-weight: 900;
+    text-align: right;
+    font-size: 1.5rem;
   }
 
 
@@ -41,4 +59,25 @@ body {
 
 .toDoItem {
   margin: 4%;
+}
+
+.inputButtons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.inputButtons input {
+  border-radius: 5px;
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 2%;
+}
+
+button {
+  font-size: 1.5rem;
+  border-radius: 15px;
+  margin: 1%;
 }
